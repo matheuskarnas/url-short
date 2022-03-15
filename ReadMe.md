@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Esse Projeto é um desafio da [Frontend Mentor](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G) que consiste em usar [shrtcode API](https://shrtco.de/) para encurtar um URL inserido pelo usuário.
+Esse projeto é um desafio da [Frontend Mentor](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G) que consiste em usar [shrtcode API](https://shrtco.de/) para encurtar um URL inserido pelo usuário.
 
 <br/>
 
