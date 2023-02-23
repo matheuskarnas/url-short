@@ -14,24 +14,24 @@ export function Rodape() {
                 <Links>
                     <div>
                         <p>Feautures</p> <br />
-                        <a href='http://localhost:3000/'>Links Shortening</a> <br/>
-                        <a href='http://localhost:3000/'>Branded Links</a> <br/>
-                        <a href='http://localhost:3000/'>Analytics</a> <br/>
+                        <a href='/#'>Links Shortening</a> <br/>
+                        <a href='/#'>Branded Links</a> <br/>
+                        <a href='/#'>Analytics</a> <br/>
                     </div>
 
                     <div>
                         <p>Resources</p><br />
-                        <a href='http://localhost:3000/'>Blog</a><br />
-                        <a href='http://localhost:3000/'>Develoaers</a><br />
-                        <a href='http://localhost:3000/'>Support</a>
+                        <a href='/#'>Blog</a><br />
+                        <a href='/#'>Develoaers</a><br />
+                        <a href='/#'>Support</a>
                     </div>
 
                     <div>
                         <p>Company</p><br />
-                        <a href='http://localhost:3000/'>About</a><br />
-                        <a href='http://localhost:3000/'>Our Team</a><br />
-                        <a href='http://localhost:3000/'>Careers</a><br />
-                        <a href='http://localhost:3000/'>Contact</a><br />
+                        <a href='/#'>About</a><br />
+                        <a href='/#'>Our Team</a><br />
+                        <a href='/#'>Careers</a><br />
+                        <a href='/#'>Contact</a><br />
                     </div>
 
                 </Links>
