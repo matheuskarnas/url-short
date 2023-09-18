@@ -3,7 +3,7 @@ import { Container } from './styled'
 
 interface UrlResultProps {
   link: string
-  shortLink?: string
+  shortLink: string
 }
 
 export function UrlResult({ link, shortLink }: UrlResultProps) {
@@ -20,7 +20,9 @@ export function UrlResult({ link, shortLink }: UrlResultProps) {
           rel='noopener noreferrer'>
           {shortLink}
         </a>
-        <ButtonCyan>Copy</ButtonCyan>
+        <ButtonCyan onClick={() => navigator.clipboard.writeText(shortLink)}>
+          Copy
+        </ButtonCyan>
       </div>
     </Container>
   )
