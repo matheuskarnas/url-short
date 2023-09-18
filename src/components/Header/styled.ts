@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container = styled.header`
   display: flex;
@@ -44,17 +44,14 @@ export const Container = styled.header`
     }
   }
 
-  div.menu{
-    svg{
+  div.menu {
+    svg {
       width: 2.5rem;
       height: 2.5rem;
     }
-    
 
-    @media(min-width: 1001px ){
+    @media (min-width: 1001px) {
       display: none;
     }
   }
-
-  
-`;
+`

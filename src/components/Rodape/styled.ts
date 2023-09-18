@@ -1,10 +1,10 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container = styled.div`
   width: 100vw;
   background: var(--Very-Dark-Violet);
   padding: 3rem 10rem 0 10rem;
-`;
+`
 
 export const Content = styled.div`
   width: 100%;
@@ -17,9 +17,9 @@ export const Content = styled.div`
     padding-bottom: 2.5rem;
     text-align: center;
   }
-`;
+`
 
-export const Logo = styled.div``;
+export const Logo = styled.div``
 
 export const Links = styled.div`
   margin-left: auto;
@@ -30,7 +30,7 @@ export const Links = styled.div`
     display: block;
     div {
       padding-bottom: 2rem;
-      :first-child{
+      :first-child {
         padding-top: 2rem;
       }
     }
@@ -51,7 +51,7 @@ export const Links = styled.div`
       }
     }
   }
-`;
+`
 
 export const Social = styled.div`
   margin-left: 5rem;
@@ -63,8 +63,8 @@ export const Social = styled.div`
     }
   }
 
-  @media(max-width: 1100px){
+  @media (max-width: 1100px) {
     padding: 0 auto;
     margin: 0;
   }
-`;
+`

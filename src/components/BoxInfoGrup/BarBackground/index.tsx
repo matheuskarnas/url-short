@@ -1,7 +1,5 @@
-import { Container } from "./styled";
+import { Container } from './styled'
 
 export function BarBackground() {
-    return(
-        <Container/>
-    )
+  return <Container />
 }

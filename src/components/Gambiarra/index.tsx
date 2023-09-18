@@ -1,7 +1,5 @@
-import { Container } from "./styled";
+import { Container } from './styled'
 
 export function Gambiarra() {
-    return (
-        <Container/>
-    )
+  return <Container />
 }

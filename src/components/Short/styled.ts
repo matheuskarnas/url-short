@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import bgImg from "../../images/bg-shorten-desktop.svg";
+import styled from 'styled-components'
+import bgImg from '../../images/bg-shorten-desktop.svg'
 
 export const Container = styled.div`
   display: flex;
@@ -37,7 +37,7 @@ export const Container = styled.div`
     padding: 1rem 1.5rem;
 
     input {
-      margin-top: 1rem;      
+      margin-top: 1rem;
     }
 
     button {
@@ -46,8 +46,8 @@ export const Container = styled.div`
       font-size: 1.125rem;
     }
   }
-`;
+`
 
 export const Results = styled.div`
   margin-top: -3.5rem;
-`;
+`

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const ButtonCyan = styled.button`
   cursor: pointer;
@@ -11,4 +11,4 @@ export const ButtonCyan = styled.button`
     background: hsl(181, 69%, 85%);
     transition: 500ms;
   }
-`;
+`

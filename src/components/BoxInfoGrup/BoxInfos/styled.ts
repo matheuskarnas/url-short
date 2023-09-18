@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container = styled.div`
   padding: 0 1rem 2rem 1rem;
@@ -33,10 +33,10 @@ export const Container = styled.div`
     max-width: 600px;
     margin: auto;
     text-align: center;
-    div{
+    div {
       transform: translateY(-2.75rem);
       margin: auto;
       padding: 1rem;
     }
   }
-`;
+`

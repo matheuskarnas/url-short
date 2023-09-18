@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container = styled.div`
   display: flex;
@@ -24,25 +24,25 @@ export const Container = styled.div`
       border-radius: 0.5rem;
     }
   }
-  @media(max-width: 850px){
+  @media (max-width: 850px) {
     display: block;
     padding: 1rem 0;
-    
-    div.link{
+
+    div.link {
       border-bottom: 1px solid var(--Gray);
-      padding:  1rem;
+      padding: 1rem;
     }
-    div.shortLink{
+    div.shortLink {
       flex-direction: column;
       padding: 1rem;
-      a{
+      a {
         padding-bottom: 1rem;
       }
 
-      button{
+      button {
         margin-left: 0;
-        padding: 0.75rem 0;                
+        padding: 0.75rem 0;
       }
     }
   }
-`;
+`

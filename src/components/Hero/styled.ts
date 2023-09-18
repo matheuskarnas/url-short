@@ -1,17 +1,17 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container = styled.div`
   display: flex;
   max-width: 1440px;
   margin: 5rem auto 0 auto;
 
-  @media (max-width: 1480px) {    
+  @media (max-width: 1480px) {
     flex-direction: column-reverse;
     align-items: center;
     text-align: center;
     margin-top: 0;
 
-    div:nth-child(1){
+    div:nth-child(1) {
       margin-top: 3rem;
     }
   }
@@ -33,4 +33,4 @@ export const Container = styled.div`
     border-radius: 55555rem;
     font-size: 1.25rem;
   }
-`;
+`
