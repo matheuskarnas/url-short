@@ -14,7 +14,12 @@ export function UrlResult({ link, shortLink }: UrlResultProps) {
       </div>
 
       <div className='shortLink'>
-        <a href={`https://${shortLink}`}>https://{shortLink}</a>
+        <a
+          href={`https://${shortLink}`}
+          target='_blank'
+          rel='noopener noreferrer'>
+          {shortLink}
+        </a>
         <ButtonCyan>Copy</ButtonCyan>
       </div>
     </Container>
