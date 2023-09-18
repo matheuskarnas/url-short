@@ -26,7 +26,11 @@ export function Short() {
     if (inputValue !== '') {
       fetch(`https://api.shrtco.de/v2/shorten?url=${link}`)
         .then(response => response.json())
-        .then(data =>
+        .then(data => {
+          console.log('response', data)
+          if (!data.ok) {
+            return alert('O link inserido não é valido')
+          }
           setVirginLink(state => [
             ...state,
             {
@@ -34,7 +38,7 @@ export function Short() {
               responseLink: data.result.short_link
             }
           ])
-        )
+        })
     }
   }
 
