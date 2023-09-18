@@ -38,6 +38,7 @@ export function Short() {
               responseLink: data.result.short_link
             }
           ])
+          setInputValue('')
         })
     }
   }
@@ -47,6 +48,7 @@ export function Short() {
       <Container>
         <input
           type='url'
+          value={inputValue}
           onChange={e => setInputValue(e.target.value)}
           onKeyDown={handleEnter}
           placeholder='Shorten a link here...'
