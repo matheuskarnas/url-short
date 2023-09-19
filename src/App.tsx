@@ -3,31 +3,31 @@ import { Hero } from './components/Hero'
 import { Short } from './components/Short'
 import { Text } from './components/Text/index'
 import { Footer } from './components/Footer'
-import { BoxInfoGrup } from './components/BoxInfoGrup/index'
+import { BoxInfoGroup } from './components/BoxInfoGroup/index'
 import { LastFunction } from './components/LastFunction/index'
-import { Top, Medium, Container, Botton } from './components/styled'
+import * as S from './components/styled'
 import { Gambiarra } from './components/Gambiarra'
 
 function App() {
   return (
-    <Container>
-      <Top>
+    <S.Container>
+      <S.Top>
         <Header />
         <Hero />
-      </Top>
+      </S.Top>
 
-      <Medium>
+      <S.Medium>
         <Short />
         <Text />
-        <BoxInfoGrup />
+        <BoxInfoGroup />
         <Gambiarra />
-      </Medium>
+      </S.Medium>
 
-      <Botton>
+      <S.Bottom>
         <LastFunction />
         <Footer />
-      </Botton>
-    </Container>
+      </S.Bottom>
+    </S.Container>
   )
 }
 

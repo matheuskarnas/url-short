@@ -23,7 +23,7 @@ export const Medium = styled.div`
   }
 `
 
-export const Botton = styled.div`
+export const Bottom = styled.div`
   width: 100vw;
   background: #edf2f7;
 `

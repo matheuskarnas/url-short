@@ -5,7 +5,7 @@ import DetailsImg from '../../images/icon-detailed-records.svg'
 import BrandImg from '../../images/icon-brand-recognition.svg'
 // import { BarBackground } from "./BarBackground";
 
-export function BoxInfoGrup() {
+export function BoxInfoGroup() {
   return (
     <>
       <Container>
