@@ -23,24 +23,23 @@ export function Short() {
   }
 
   const apiCall = (link: string) => {
-    if (inputValue !== '') {
-      fetch(`https://api.shrtco.de/v2/shorten?url=${link}`)
-        .then(response => response.json())
-        .then(data => {
-          console.log('response', data)
-          if (!data.ok) {
-            return alert('O link inserido não é valido')
+    if (link === '') return alert('Nenhuma URL foi inserida')
+    fetch(`https://api.shrtco.de/v2/shorten?url=${link}`)
+      .then(response => response.json())
+      .then(data => {
+        console.log('response', data)
+        if (!data.ok) {
+          return alert('A URL inserido não é válida')
+        }
+        setVirginLink(state => [
+          ...state,
+          {
+            link: data.result.original_link,
+            responseLink: data.result.short_link
           }
-          setVirginLink(state => [
-            ...state,
-            {
-              link: data.result.original_link,
-              responseLink: data.result.short_link
-            }
-          ])
-          setInputValue('')
-        })
-    }
+        ])
+        setInputValue('')
+      })
   }
 
   return (
