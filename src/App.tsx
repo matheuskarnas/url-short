@@ -1,5 +1,4 @@
 import { Header } from './components/Header/index'
-import { GlobalStyle } from './globalStyle'
 import { Hero } from './components/Hero'
 import { Short } from './components/Short'
 import { Text } from './components/Text/index'
@@ -28,7 +27,6 @@ function App() {
         <LastFunction />
         <Rodape />
       </Botton>
-      <GlobalStyle />
     </Container>
   )
 }
