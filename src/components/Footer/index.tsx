@@ -1,6 +1,6 @@
 import { Container, Content, Links, Logo, Social } from './styled'
 
-export function Rodape() {
+export function Footer() {
   return (
     <Container>
       <Content>

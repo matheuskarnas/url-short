@@ -2,7 +2,7 @@ import { Header } from './components/Header/index'
 import { Hero } from './components/Hero'
 import { Short } from './components/Short'
 import { Text } from './components/Text/index'
-import { Rodape } from './components/Rodape'
+import { Footer } from './components/Footer'
 import { BoxInfoGrup } from './components/BoxInfoGrup/index'
 import { LastFunction } from './components/LastFunction/index'
 import { Top, Medium, Container, Botton } from './components/styled'
@@ -25,7 +25,7 @@ function App() {
 
       <Botton>
         <LastFunction />
-        <Rodape />
+        <Footer />
       </Botton>
     </Container>
   )
