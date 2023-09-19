@@ -15,7 +15,7 @@ export function Footer() {
 
         <Links>
           <div>
-            <p>Feautures</p> <br />
+            <p>Features</p> <br />
             <a href='/#'>Links Shortening</a> <br />
             <a href='/#'>Branded Links</a> <br />
             <a href='/#'>Analytics</a> <br />
@@ -26,7 +26,7 @@ export function Footer() {
             <br />
             <a href='/#'>Blog</a>
             <br />
-            <a href='/#'>Develoaers</a>
+            <a href='/#'>Developers</a>
             <br />
             <a href='/#'>Support</a>
           </div>

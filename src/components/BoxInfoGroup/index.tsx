@@ -12,7 +12,7 @@ export function BoxInfoGroup() {
         <Content>
           <BoxInfos
             ImgIcon={BrandImg}
-            title='Brand Recognotion'
+            title='Brand Recognition'
             text='Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil confidence in your content.'
           />
 
@@ -24,7 +24,7 @@ export function BoxInfoGroup() {
 
           <BoxInfos
             ImgIcon={FullyImg}
-            title='Fully Custumizable'
+            title='Fully Customizable'
             text='Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.'
           />
         </Content>
